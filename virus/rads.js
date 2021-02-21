@@ -33,5 +33,5 @@ document.write(adsstyle);
     else if ( adWidth >= 160 )
       google_ad_size = ["160", "90"];
 
+document.getElementById('kasads').setAttribute("style", "'width: ''+ google_ad_size[0] +' px;height:' + google_ad_size[1] + 'px;'");
 
-document.write ('<style>.bc-banner{display:inline-block;width:' + google_ad_size[0] + 'px;height:' + google_ad_size[1] + 'px;}'</style>' );
