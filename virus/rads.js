@@ -1,6 +1,3 @@
-
-
-
 $('document').ready(function() {
   $.getJSON("https://spreadsheets.google.com/feeds/list/1uT8y69qqzCxdHjh7_nR-41wwLAdnT2SUWYDJ8RyP6Hg/1/public/values?alt=json", function(data) {
     //start each
@@ -12,7 +9,7 @@ $('document').ready(function() {
 
 
   var adsstyle = '<style>.bc-btn{font-weight:500;text-align:center;padding:2px5px;display:inline-block;transform:skew(-21deg);}.bc-banner{position:relative;border:1pxsolid#ccc;overflow:hidden;}.bc-bannera{text-decoration:none;color:#fff;}.bc-banner-header{background-color:#fff;position:relative;z-index:2;padding:1rem;}.bc-banner-body{position:relative;z-index:2;padding:2rem;}.bc-bannera:hover{opacity:0.8;}.bc-banner.bc-banner-cover{position:absolute;opacity:0.8;filter:alpha(opacity=30);object-fit:cover;top:0;z-index:1;height:100%;width:100%;}</style>';
-document.write(adsstyle)
+document.write(adsstyle);
 
 
 /* Calculate the width of available ad space */
@@ -37,8 +34,4 @@ document.write(adsstyle)
       google_ad_size = ["160", "90"];
 
 
-document.write (
-     '<style>.bc-banner{display:inline-block;width:' 
-      + google_ad_size[0] + 'px;height:' 
-      + google_ad_size[1] + 'px;}'</style>'
-    );
+document.write ('<style>.bc-banner{display:inline-block;width:' + google_ad_size[0] + 'px;height:' + google_ad_size[1] + 'px;}'</style>' );
