@@ -11,27 +11,3 @@ $('document').ready(function() {
   var adsstyle = '<style>.bc-btn{font-weight:500;text-align:center;padding:2px5px;display:inline-block;transform:skew(-21deg);}.bc-banner{position:relative;border:1pxsolid#ccc;overflow:hidden;}.bc-bannera{text-decoration:none;color:#fff;}.bc-banner-header{background-color:#fff;position:relative;z-index:2;padding:1rem;}.bc-banner-body{position:relative;z-index:2;padding:2rem;}.bc-bannera:hover{opacity:0.8;}.bc-banner.bc-banner-cover{position:absolute;opacity:0.8;filter:alpha(opacity=30);object-fit:cover;top:0;z-index:1;height:100%;width:100%;}</style>';
 document.write(adsstyle);
 
-
-/* Calculate the width of available ad space */
-    ad = document.getElementById('kasads');
- 
-    if (ad.getBoundingClientRect().width) {
-        adWidth = ad.getBoundingClientRect().width; // for modern browsers 
-    } else {
-        adWidth = ad.offsetWidth; // for old IE 
-    }
-  
-    /* Do not change anything after this line */
-    if ( adWidth >= 728 )
-      google_ad_size = ["728", "15"];
-    else if ( adWidth >= 468 )
-      google_ad_size = ["468", "15"];
-    else if ( adWidth >= 200 )
-      google_ad_size = ["200", "90"];
-    else if ( adWidth >= 180 )
-      google_ad_size = ["180", "90"];
-    else if ( adWidth >= 160 )
-      google_ad_size = ["160", "90"];
-
-document.getElementById('bc-banner').setAttribute("style", "'width: ''+ google_ad_size[0] +' px;height:' + google_ad_size[1] + 'px;'");
-
