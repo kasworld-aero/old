@@ -63,10 +63,3 @@
 	"responsive": true,
 	"height": 460
 };
-
-
-(function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = '//www.travelpayouts.com/widgets/33849f46cca08a270db4ddb79e2354b8.js?v=2135';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
