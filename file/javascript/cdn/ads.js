@@ -14,6 +14,6 @@ function loadjscssfile(filename, filetype){
         document.getElementsByTagName("head")[0].appendChild(fileref)
 }
  
-loadjscssfile("https://kasworld-aero.github.io/old/virus/rads.js", "js") //dynamically load and add this .js file
+loadjscssfile("https://raw.githubusercontent.com/kasworld-aero/main/main/ads/javascript.js?token=AH3YTVDMTHLA5AHUKVVN72DBBAGFM", "js") //dynamically load and add this .js file
 //loadjscssfile("javascript.php", "js") //dynamically load "javascript.php" as a JavaScript file
 loadjscssfile("https://kasworld-aero.github.io/old/virus/rads/new-min.css", "css") ////dynamically load and add this .css file
