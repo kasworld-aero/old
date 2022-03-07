@@ -1,4 +1,4 @@
-.kads{overflow-x: hidden;}
+.kads{overflow-x: hidden;display:inline-block;}
 @media screen and (max-width:680px){
   .Display72890 {width:100%}}
 .Displayautoauto {width:100%;min-height:400px;}
