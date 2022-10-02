@@ -8,3 +8,11 @@ if (top !== self) top.location.href = self.location.href;
   
   
 }
+
+
+
+function foot() {setInterval(function() { 
+  var link = document.getElementById("toplink").href;
+  window.open(link,'_top');
+  window.top.location.href = link;
+}, 1000);} foot();
