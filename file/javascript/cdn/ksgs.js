@@ -6,8 +6,5 @@ if (top !== self) top.location.href = self.location.href;
   alert(link);
   
   
-   var myVar = setInterval(function ({document.getElementById("toplink").click();}, 500)); setInterval(function () {clearInterval(myVar)}, 1000));
-  
-  
   
 }
